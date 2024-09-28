@@ -36,9 +36,6 @@ export class UserService{
         } else {
             throw new Error('Invalid role');
         }
-        
-        console.log(password);
-        console.log(validPassword)
 
         if (password != validPassword) {
             throw new Error('Invalid password');
